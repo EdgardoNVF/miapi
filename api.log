@@ -1,0 +1,175 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:01:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:01:07] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:01:08] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:01:08] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:01:08] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:03] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:03] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:04] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:04] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:04] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:05] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:06] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:02:06] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:11] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:12] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:05:12] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:06:14] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:06:14] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:06:15] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:06:15] "GET /v1/users HTTP/1.1" 200 -
+INFO:__main__:OPERATION OK: Método GET users ejecutado correctamente
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:06:15] "GET /v1/users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+WARNING:__main__:AUTH NOT SUCCESS: Bearer token incorrecto
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:15:15] "[31m[1mPOST /v1/users HTTP/1.1[0m" 401 -
+WARNING:__main__:AUTH NOT SUCCESS: Bearer token incorrecto
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:15:16] "[31m[1mPOST /v1/users HTTP/1.1[0m" 401 -
+WARNING:__main__:AUTH NOT SUCCESS: Bearer token incorrecto
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:15:16] "[31m[1mPOST /v1/users HTTP/1.1[0m" 401 -
+WARNING:__main__:AUTH NOT SUCCESS: Bearer token incorrecto
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:17:08] "[31m[1mPOST /v1/users HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+INFO:werkzeug: * Detected change in 'c:\\Users\\Netec\\Desktop\\miapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-882-871
+WARNING:__main__:AUTH NOT SUCCESS: Bearer token incorrecto
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:26:29] "[31m[1mPOST /v1/users HTTP/1.1[0m" 401 -
+INFO:__main__:INSERT SUCCESS: karen, 22
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:26:49] "[35m[1mPOST /v1/users HTTP/1.1[0m" 201 -
+WARNING:__main__:BODY INCOMPLETO: Faltan argumentos en el cuerpo del request
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:26:56] "[31m[1mPOST /v1/users HTTP/1.1[0m" 400 -
+WARNING:__main__:VALUE ERROR: karen o asd son inválidos
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:27:19] "[31m[1mPOST /v1/users HTTP/1.1[0m" 400 -
+INFO:__main__:INSERT SUCCESS: karen, 30
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2025 12:27:25] "[35m[1mPOST /v1/users HTTP/1.1[0m" 201 -

@@ -1,7 +1,41 @@
 from flask import Flask, jsonify, request
 from model import *
+import logging #uso de bitácoras en python
 
 app = Flask(__name__)
+
+#-*-*-*configuracion básica bitácora-*-*-*-*
+
+#crea un archivo api.log y añade las nuevas entradas al final del archivo
+logging.basicConfig(filename="api.log", filemode="a", level=logging.INFO)
+
+#Creamos el Logger (permite el registro en la bitácora)
+LOGGER = logging.getLogger(__name__)
+
+
+
+
+#-.-.-.-.Bearer Token implementation-.-.-.-.-.
+TOKEN = "1234856789ABCD" #rotar cada cierto tiempo
+
+def check_token():
+    auth = request.headers.get("Authorization")
+
+    #valida que exista el header
+    if not auth:
+        return False
+    
+    #validar formato debe de ser "Bearer <token>"
+    parts = auth.split() #separo Bearer y el token
+
+    #el tamaño debe de ser de 2 y debe de comenzar con la palabra Bearer
+    if len(parts)!=2 and parts[0]!="Bearer":
+        return False
+    
+    #validamos el token del header con el token registrado en el api
+    return parts[1]==TOKEN
+
+#-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
 
 #ruta all users GET http://ip:port/v1/users
@@ -9,6 +43,7 @@ app = Flask(__name__)
 def get_users():
     #convert users to json
     users_json=[{"name":t.name, "age":t.age} for t in get_data()]
+    LOGGER.info("OPERATION OK: Método GET users ejecutado correctamente")
     return jsonify(users_json),200
     
 
@@ -16,6 +51,12 @@ def get_users():
 #ruta insert user POST http://ip:port/v1/users
 @app.post("/v1/users")
 def insert_user():
+    #-.-.-.-.secure endpoint-.-.-.-.
+    if not check_token():
+        LOGGER.warning("AUTH NOT SUCCESS: Bearer token incorrecto")
+        return jsonify({"message":"No autorizado"}),401
+
+
     #get body request client
     get_body=request.get_json()
 
@@ -32,11 +73,14 @@ def insert_user():
                 user.name=str(name)
                 insert_in_memory(user)
 
+                LOGGER.info(f"INSERT SUCCESS: {name}, {age}")
                 return jsonify({"message":"ok"}), 201 #Created
             else:
+                LOGGER.warning(f"VALUE ERROR: {name} o {age} son inválidos")
                 return jsonify({"message": "tipos de dato inválido"}), 400
 
         else:
+            LOGGER.warning("BODY INCOMPLETO: Faltan argumentos en el cuerpo del request")
             return jsonify({"message":"falta name o age en body"}), 400
 
     else: # si no existe
