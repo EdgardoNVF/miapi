@@ -10,6 +10,7 @@ def get_users():
     #convert users to json
     users_json=[{"name":t.name, "age":t.age} for t in get_data()]
     return jsonify(users_json),200
+    
 
 
 #ruta insert user POST http://ip:port/v1/users
